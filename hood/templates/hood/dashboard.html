@@ -1,3 +1,42 @@
 {% extends 'hood/base.html'%} {% block content %}
-<h1>Dashboard</h1>
+<br>
+
+<div class="row">
+    <!--System Admin-->
+    <div class="col-md-7">
+        <h5>Neighbourhoods:</h5>
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary  btn-sm btn-block" href="">Create Neighbourhood</a>
+            <table class="table table-sm">
+                <tr>
+                    <th></th>
+                    <th>Neighbourhood</th>
+                    <th>Location</th>
+                    <th>Update</th>
+                    <th>Remove</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <!--Neighbourhood Admin-->
+    <div class="col-md-5">
+        <h5>More Information about each neighbourhood</h5>
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary  btn-sm btn-block" href="">Add More Info:</a>
+            <table class="table table-sm">
+                <tr>
+                    <th>Business</th>
+                    <th>Health Care Centers</th>
+                    <th>Police Station</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+</div>
 {% endblock %}

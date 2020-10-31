@@ -5,4 +5,5 @@ urlpatterns = [
     path('', views.home),
     path('systemadmin/', views.systemadmin),
     path('neighbourhoodadmin/', views.neighbourhoodadmin),
+    path('client/', views.client),
 ]

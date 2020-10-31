@@ -10,3 +10,6 @@ def systemadmin(request):
 
 def neighbourhoodadmin(request):
     return render(request, 'hood/neighbourhoodadmin.html')   
+
+def client(request):
+    return render(request, 'hood/client.html')       
